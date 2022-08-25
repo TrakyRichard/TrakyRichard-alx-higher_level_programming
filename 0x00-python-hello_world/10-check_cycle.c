@@ -5,6 +5,9 @@ int check_cycle(listint_t *list)
 listint_t *hare;
 listint_t *turtoise;
 
+turtoise = list;
+hare = list;
+
 while (hare != NULL && turtoise != NULL)
 {
 	turtoise = turtoise->next;
