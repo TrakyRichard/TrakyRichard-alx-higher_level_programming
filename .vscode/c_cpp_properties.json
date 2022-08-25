@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/homebrew/Cellar/gcc/11.3.0_2/include/c++/11/tr1",
+                "/opt/homebrew/Cellar/gcc/11.3.0_2/include/c++/11",
+                "/opt/homebrew/Cellar/gcc/11.3.0_2/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include/ssp"
+            ],
+            "defines": [],
+            "macFrameworkPath": [],
+            "compilerPath": "/opt/homebrew/bin/gcc-11",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "macos-clang-arm64"
+        }
+    ],
+    "version": 4
+}
