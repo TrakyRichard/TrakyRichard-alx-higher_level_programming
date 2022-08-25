@@ -8,7 +8,7 @@ listint_t *turtoise;
 turtoise = list;
 hare = list;
 
-while (hare != NULL && turtoise != NULL)
+while (hare != NULL && turtoise != NULL && hare->next != NULL)
 {
 	turtoise = turtoise->next;
 	hare = hare->next->next;
